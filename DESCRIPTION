@@ -1,0 +1,3 @@
+RFID reader based on RC522 module with Wemos and LCD
+
+Initial version, talks rudamentary MQTT

@@ -5,5 +5,5 @@ fabricated: yes
 fab_date: 2017-02
 status: experimental
 release: yes
-tags: [eagle, SPCoast]
+tags: [eagle, SPCoast, Misc]
 image_path: RFID-RC522-Wemos-Graphic.png

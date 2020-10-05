@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="2" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="23" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="yes" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="19" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="17" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="no"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="34" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
@@ -37,18 +37,18 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="no"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="24" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="no"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="24" fill="1" visible="yes" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
@@ -7118,9 +7118,9 @@ With the understanding that:
 </classes>
 <parts>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
-<part name="U$1" library="SPCoast" deviceset="WEMOS-D1" device="V1"/>
+<part name="U$1" library="SPCoast" deviceset="WEMOS-D1" device="V1" value="mini"/>
 <part name="U$2" library="SPCoast" deviceset="RFID" device="BACK"/>
-<part name="U$3" library="SPCoast" deviceset="LCD" device="1602"/>
+<part name="U$3" library="SPCoast" deviceset="LCD" device="1602" value="LCD"/>
 <part name="CON1" library="SPCoast" deviceset="CONNECTOR-I2C" device="LEFT" value="LCD"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -7129,24 +7129,24 @@ With the understanding that:
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="+9V" device=""/>
 <part name="V12" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="SPCoast" deviceset="CAP-POL*" device="PTH-5MM" value="220uF"/>
+<part name="C1" library="SPCoast" deviceset="CAP-POL*" device="0810" value="220uF"/>
 <part name="J4" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="VIN"/>
 <part name="POWER" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="9-12vDC"/>
 <part name="C3" library="SPCoast" deviceset="CAP*" device="0805" value=".1uF"/>
 <part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value=".1uF"/>
-<part name="VR" library="SPCoast" deviceset="VREG_78XX" device="-1300040P1"/>
-<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100"/>
+<part name="VR" library="SPCoast" deviceset="VREG_78XX" device="-1300040P1" value="5v"/>
+<part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100" value="8x10"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
-<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES"/>
-<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES"/>
-<part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED"/>
-<part name="LED2" library="SPCoast" deviceset="LED*" device="0603-LED"/>
+<part name="R1" library="SPCoast" deviceset="R*" device="0805-RES" value="1K0"/>
+<part name="R2" library="SPCoast" deviceset="R*" device="0805-RES" value="1K0"/>
+<part name="LED1" library="SPCoast" deviceset="LED*" device="0603-LED" value="G"/>
+<part name="LED2" library="SPCoast" deviceset="LED*" device="0603-LED" value="R"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="LOGO1" library="SPCoast" deviceset="DOC-OSHW-LOGO" device="L"/>
-<part name="LED3" library="SPCoast" deviceset="LED*" device="LED5MM"/>
-<part name="LED4" library="SPCoast" deviceset="LED*" device="LED5MM"/>
+<part name="LED3" library="SPCoast" deviceset="LED*" device="LED5MM" value="G"/>
+<part name="LED4" library="SPCoast" deviceset="LED*" device="LED5MM" value="R"/>
 </parts>
 <sheets>
 <sheet>

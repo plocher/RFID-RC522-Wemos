@@ -7132,8 +7132,8 @@ With the understanding that:
 <part name="C1" library="SPCoast" deviceset="CAP-POL*" device="0810" value="220uF"/>
 <part name="J4" library="SPCoast" deviceset="CONNECTOR-DC-POWER" device="-RA" value="VIN"/>
 <part name="POWER" library="SPCoast" deviceset="DOC-POWER_LABEL" device="" value="9-12vDC"/>
-<part name="C3" library="SPCoast" deviceset="CAP*" device="0805" value=".1uF"/>
-<part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value=".1uF"/>
+<part name="C3" library="SPCoast" deviceset="CAP*" device="0805" value="10uF"/>
+<part name="C2" library="SPCoast" deviceset="CAP*" device="0805" value="1uF"/>
 <part name="VR" library="SPCoast" deviceset="VREG_78XX" device="-1300040P1" value="5v"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="80X100" value="8x10"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
